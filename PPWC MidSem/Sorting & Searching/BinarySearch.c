@@ -41,7 +41,6 @@ int binary_search(int arr[], int pnumb, int plen)
     return (nfound);
 }
 
-
 // #include <stdio.h>
 // #include <stdbool.h>
 
