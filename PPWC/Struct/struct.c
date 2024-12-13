@@ -1,17 +1,17 @@
 #include <stdio.h>
 
-// Struct declaration
 struct StudentInfo{
     char name[20];
     int s_id;
     float mark;
-}std_1;      // struct variable name with struct template
+}std_1;     
 
 struct TeacherInfo{
     char name[20];
     int t_id;
     float salary;
 };
+
 int main(){
     struct StudentInfo std_1 = {"Student_1", 2179, 92.90}, 
     std_2 = {.s_id=3113 ,.name="Student_2", .mark=89.10};
